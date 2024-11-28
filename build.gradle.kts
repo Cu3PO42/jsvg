@@ -16,6 +16,7 @@ plugins {
     id("com.github.vlsi.gradle-extensions")
     id("com.github.vlsi.stage-vote-release")
     id("net.ltgt.errorprone") apply false
+    id("maven-publish")
 }
 
 val skipJavadoc by props()
