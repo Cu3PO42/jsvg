@@ -19,7 +19,7 @@ plugins {
 }
 
 val skipJavadoc by props()
-val enableMavenLocal by props(false)
+val enableMavenLocal = true
 val enableGradleMetadata by props()
 val enableErrorProne by props()
 val skipSpotless by props(false)
